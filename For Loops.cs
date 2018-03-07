@@ -1,5 +1,3 @@
-
-
 //For loops use this bit of code
 for(i = 1; i <= 10; i++)
 
@@ -70,3 +68,15 @@ void Start(){
 		}
 	}
 }
+
+//One more
+public int homework = 0;
+
+void Start(){
+    for(int i = 100; i > homework; i--){
+        print("I got " + i + " homework assignments left");
+        }
+    }
+}
+
+
